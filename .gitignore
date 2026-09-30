@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- ML artifacts (too large or reproducible) ---
+*.keras
+*.h5
+*.pkl
+*.pt
+*.pth
+*.onnx
+best_bone_age_model.keras
+history.pkl
+
+# --- Data files (do NOT commit dataset) ---
+bone_age_data/
+*.zip
+*.csv.gz
+kaggle.json
+
+# --- OS / Editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Logs ---
+*.log
+logs/
